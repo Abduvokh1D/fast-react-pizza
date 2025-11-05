@@ -11,8 +11,8 @@ function AppLayout() {
       {/* {isLoading && <Loader />} */}
       {isLoading && <Loader />}
       <Header />
-      <div className="my-10 overflow-hidden">
-        <main className="mx-auto max-w-3xl overflow-hidden">
+      <div className="my-5 overflow-auto">
+        <main className="mx-auto max-w-3xl">
           <Outlet />
         </main>
       </div>
